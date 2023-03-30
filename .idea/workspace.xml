@@ -5,50 +5,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79a1c02f-8e8c-4b51-85cd-806cfebeebdc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PMF.back/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PMF.back/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PMF.back/src/main/java/org/example/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PMF.back/src/main/java/org/example/controllers/GreetingsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PMF.back/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PMF.back/src/test/java/org/example/requests/GreetingsControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PMF.front/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PMF.front/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PMF.front/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PMF.front/src/main/java/com/agqlabs/HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PMF.front/src/main/resources/META-INF/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PMF.front/src/main/webapp/META-INF/context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PMF.front/src/main/webapp/WEB-INF/faces-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PMF.front/src/main/webapp/WEB-INF/templates/default.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PMF.front/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PMF.front/src/main/webapp/home.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PMF.front/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PMF.front/src/main/webapp/resources/css/screen.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PMF.front/src/main/webapp/resources/gfx/banner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PMF.front/src/main/webapp/resources/gfx/weld.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PMF.front/src/test/java/com/agqlabs/HelloWorldTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PMF.front/src/test/resources/jetty-env.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4jdbc.log4j2.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/HelloControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PMF.back/src/main/java/org/example/controler/MuestraController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PMF.back/src/main/java/org/example/model/Muestra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PMF.back/src/main/java/org/example/repository/MuestraRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PMF.back/src/test/java/org/example/requests/MuestraTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PMF.back/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PMF.back/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PMF.back/src/main/java/org/example/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/PMF.back/src/main/java/org/example/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PMF.back/src/main/java/org/example/controllers/GreetingsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PMF.back/src/test/java/org/example/requests/GreetingsControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PMF.front/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PMF.front/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PMF.front/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PMF.front/src/main/java/com/agqlabs/HelloWorld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PMF.front/src/main/resources/META-INF/beans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PMF.front/src/main/webapp/META-INF/context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PMF.front/src/main/webapp/WEB-INF/faces-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PMF.front/src/main/webapp/WEB-INF/templates/default.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PMF.front/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PMF.front/src/main/webapp/home.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PMF.front/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PMF.front/src/main/webapp/resources/css/screen.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PMF.front/src/main/webapp/resources/gfx/banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PMF.front/src/main/webapp/resources/gfx/weld.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PMF.front/src/test/java/com/agqlabs/HelloWorldTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PMF.front/src/test/resources/jetty-env.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -68,9 +69,63 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "openjdk-20"
+    "jdk.selected.JAVA_MODULE": "openjdk-20",
+    "last_opened_file_path": "C:/ProyectoJAVA/PMF",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
+  <component name="RunManager" selected="Maven.spring-data-jpa-crud-test [spring-boot:run]">
+    <configuration name="MuestraTest.buscatodas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-data-jpa-crud-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.requests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.requests" />
+      <option name="MAIN_CLASS_NAME" value="org.example.requests.MuestraTest" />
+      <option name="METHOD_NAME" value="buscatodas" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="spring-data-jpa-crud-test [spring-boot:run]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="spring-boot:run" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/PMF.back" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Maven.spring-data-jpa-crud-test [spring-boot:run]" />
+        <item itemvalue="JUnit.MuestraTest.buscatodas" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -97,5 +152,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/PMF.back/src/test/java/org/example/requests/MuestraTest.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/PMF.back/src/main/java/org/example/controler/MuestraController.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
